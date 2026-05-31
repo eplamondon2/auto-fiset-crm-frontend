@@ -9,7 +9,7 @@
     "serve": "^14.2.0"
   },
   "scripts": {
-    "start": "serve -s build -l $PORT",
+    "start": "serve -s build -p ${PORT:-3000}"
     "build": "react-scripts build",
     "dev": "react-scripts start"
   },
